@@ -1,0 +1,25 @@
+{
+	"customerId": 1,
+	"address": {
+		"phone": "1234",
+		"address": "DSR Spring beauty Apt,Brookfield",
+		"city": "Bangalore",
+		"state": "Karnataka",
+		"zip": "560037",
+		"country": "India"
+	},
+	"orderItems": [
+		{
+			"orderId": 0,
+			"recipe": {
+				"restaurantId": 1,
+				"recipeId": 3,
+				"name": "Grilled chicked",
+				"description": "Grilled chicked",
+				"unitPrice": 50.0
+			},
+			"quantity": 1.0
+		}
+	],
+	"restaurantId": 1
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Sameer",
+	"email": "sam@gmail.com",
+	"address": {
+		"phone": "1234",
+		"address": "DSR Spring beauty Apt,Brookfield",
+		"city": "Bangalore",
+		"state": "Karnataka",
+		"zip": "560037",
+		"country": "India"
+	}
+}

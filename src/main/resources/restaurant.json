@@ -1,0 +1,13 @@
+{
+	"id": 0,
+	"name": "Moriz Restaurant",
+	"email": "moriz.restaurant@gmail.com",
+	"address": {
+		"phone": "458878",
+		"address": "Moriz Restaurant,Brookfield",
+		"city": "Bangalore",
+		"state": "Karnataka",
+		"zip": "560037",
+		"country": "India"
+	}
+}
