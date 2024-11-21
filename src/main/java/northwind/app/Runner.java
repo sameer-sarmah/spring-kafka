@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import org.springframework.stereotype.Component;
@@ -19,6 +20,7 @@ import northwind.config.KafkaConfig;
 import northwind.event.publisher.OrderPublisher;
 import northwind.models.Order;
 
+@EnableAutoConfiguration
 @Import(KafkaConfig.class)
 @SpringBootApplication
 @Component
